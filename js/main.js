@@ -1,3 +1,7 @@
 $('.signin').click(function() {
-	$('.modal').fadeIn('slow');
+	$('.modal').fadeIn('start');
+});
+
+$('.close').click(function() {
+	$('.modal').fadeOut('start');
 });
